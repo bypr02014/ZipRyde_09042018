@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7509D0591FAE09DD0099C9FA /* PaymentSubDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7509D0581FAE09DD0099C9FA /* PaymentSubDetailTableViewCell.swift */; };
+		752302591F5AB26C002384CE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752302581F5AB26C002384CE /* Utility.swift */; };
+		753CFBE01F57F58500FCAA16 /* SourceLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753CFBDF1F57F58500FCAA16 /* SourceLocationViewController.swift */; };
+		7541B869206A8FD10008694F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7541B868206A8FD10008694F /* GoogleService-Info.plist */; };
+		754EC0211F6832D10055D699 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EC0201F6832D10055D699 /* UIViewController.swift */; };
+		754EC0231F6836360055D699 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EC0221F6836360055D699 /* MenuViewController.swift */; };
+		754EC0261F68656C0055D699 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EC0241F68656C0055D699 /* SlideMenuController.swift */; };
+		754EC0281F6872F70055D699 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EC0271F6872F70055D699 /* ExSlideMenuController.swift */; };
+		754EC02A1F6873B50055D699 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EC0291F6873B50055D699 /* UIApplication.swift */; };
+		755598F01F928D860028331F /* RideDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755598EF1F928D860028331F /* RideDetailCell.swift */; };
+		755598F21F934D360028331F /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755598F11F934D360028331F /* Ride.swift */; };
+		755B155F1F4DDDD600ACCAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B155E1F4DDDD600ACCAE2 /* AppDelegate.swift */; };
+		755B15611F4DDDD600ACCAE2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B15601F4DDDD600ACCAE2 /* SignInViewController.swift */; };
+		755B15641F4DDDD600ACCAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755B15621F4DDDD600ACCAE2 /* Main.storyboard */; };
+		755B15661F4DDDD600ACCAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755B15651F4DDDD600ACCAE2 /* Assets.xcassets */; };
+		755B15691F4DDDD600ACCAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755B15671F4DDDD600ACCAE2 /* LaunchScreen.storyboard */; };
+		755B15771F4E13E500ACCAE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B15761F4E13E500ACCAE2 /* CoreLocation.framework */; };
+		755B157B1F4F2CC600ACCAE2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B157A1F4F2CC600ACCAE2 /* SignUpViewController.swift */; };
+		755B157D1F4F2DD400ACCAE2 /* EnterMobileNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B157C1F4F2DD400ACCAE2 /* EnterMobileNumViewController.swift */; };
+		755B157F1F4F2DEB00ACCAE2 /* VerifyPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B157E1F4F2DEB00ACCAE2 /* VerifyPinViewController.swift */; };
+		755B15861F4F355E00ACCAE2 /* EnterIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B15851F4F355E00ACCAE2 /* EnterIPViewController.swift */; };
+		755B15891F4F3AAD00ACCAE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B15881F4F3AAD00ACCAE2 /* Constants.swift */; };
+		75715D3F1F69119000479CD3 /* ScheduleRydesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D3E1F69119000479CD3 /* ScheduleRydesViewController.swift */; };
+		75715D411F6911A200479CD3 /* PastRydesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D401F6911A200479CD3 /* PastRydesViewController.swift */; };
+		75715D431F6911CD00479CD3 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D421F6911CD00479CD3 /* HelpViewController.swift */; };
+		75715D481F6923C000479CD3 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D471F6923C000479CD3 /* UserDetailTableViewCell.swift */; };
+		75715D4A1F6923FD00479CD3 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D491F6923FD00479CD3 /* DefaultTableViewCell.swift */; };
+		75715D4C1F692B5000479CD3 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D4B1F692B5000479CD3 /* String.swift */; };
+		75715D501F7000CC00479CD3 /* RydeCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75715D4F1F7000CC00479CD3 /* RydeCompletedViewController.swift */; };
+		7584AF741F56D45C000F05BA /* SelectDestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584AF731F56D45C000F05BA /* SelectDestViewController.swift */; };
+		75A039D01F50457600CFB776 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A039CF1F50457600CFB776 /* NetworkStatus.swift */; };
+		75A039D21F51549700CFB776 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A039D11F51549700CFB776 /* ActivityIndicatorView.swift */; };
+		75A039D81F52BBA300CFB776 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A039D71F52BBA300CFB776 /* HomeScreenViewController.swift */; };
+		75B7E6631FBB6EEF001046D8 /* ZiprydeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E6621FBB6EEF001046D8 /* ZiprydeDetailViewController.swift */; };
+		75B7E6651FBCB4F8001046D8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E6641FBCB4F8001046D8 /* ForgotPasswordViewController.swift */; };
+		75B7E6671FBCBA8C001046D8 /* VerifyFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E6661FBCBA8C001046D8 /* VerifyFPViewController.swift */; };
+		75B7E6691FBCBACF001046D8 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E6681FBCBACF001046D8 /* ChangePasswordViewController.swift */; };
+		75C8B71F1FB45E5B00993F92 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C8B71E1FB45E5B00993F92 /* EditProfileViewController.swift */; };
+		75EB7C131F79493800949D3C /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EB7C121F79493800949D3C /* CalenderViewController.swift */; };
+		75F005D11F584A880069C128 /* SelectCabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F005D01F584A880069C128 /* SelectCabViewController.swift */; };
+		75F005D31F595BA70069C128 /* SelectFareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F005D21F595BA70069C128 /* SelectFareViewController.swift */; };
+		75F005D51F596F050069C128 /* CabBookedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F005D41F596F050069C128 /* CabBookedViewController.swift */; };
+		75F653CB1F555CC5001002A5 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F653CA1F555CC5001002A5 /* UserNotifications.framework */; };
+		75F810791F92428900114E30 /* Cab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810751F92428900114E30 /* Cab.swift */; };
+		75F8107B1F92428900114E30 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810771F92428900114E30 /* Driver.swift */; };
+		75F8107C1F92428900114E30 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810781F92428900114E30 /* Rider.swift */; };
+		75F810831F92429C00114E30 /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8107D1F92429C00114E30 /* BookingViewModel.swift */; };
+		75F810841F92429C00114E30 /* CabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8107E1F92429C00114E30 /* CabViewModel.swift */; };
+		75F810851F92429C00114E30 /* GetOTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8107F1F92429C00114E30 /* GetOTPViewModel.swift */; };
+		75F810861F92429C00114E30 /* SaveUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810801F92429C00114E30 /* SaveUserViewModel.swift */; };
+		75F810871F92429C00114E30 /* VerifyLogInUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810811F92429C00114E30 /* VerifyLogInUserViewModel.swift */; };
+		75F810881F92429C00114E30 /* VerifyOTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F810821F92429C00114E30 /* VerifyOTPViewModel.swift */; };
+		B6BA13AF89DF6BC0DB3FF313 /* Pods_ZipRyde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB6A7B2188A8ACD679D533 /* Pods_ZipRyde.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08AB6A7B2188A8ACD679D533 /* Pods_ZipRyde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipRyde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72652996601EA2A87E46DA2A /* Pods-ZipRyde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipRyde.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde.release.xcconfig"; sourceTree = "<group>"; };
+		7509D0581FAE09DD0099C9FA /* PaymentSubDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSubDetailTableViewCell.swift; sourceTree = "<group>"; };
+		752302581F5AB26C002384CE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		753CFBDF1F57F58500FCAA16 /* SourceLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceLocationViewController.swift; sourceTree = "<group>"; };
+		7541B868206A8FD10008694F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7541B86A206A90150008694F /* ZipRyde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZipRyde.entitlements; sourceTree = "<group>"; };
+		754EC0201F6832D10055D699 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		754EC0221F6836360055D699 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		754EC0241F68656C0055D699 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		754EC0271F6872F70055D699 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		754EC0291F6873B50055D699 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		755598EF1F928D860028331F /* RideDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailCell.swift; sourceTree = "<group>"; };
+		755598F11F934D360028331F /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ride.swift; path = ZipRyde/TableCell/Ride.swift; sourceTree = SOURCE_ROOT; };
+		755B155B1F4DDDD600ACCAE2 /* ZipRyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipRyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755B155E1F4DDDD600ACCAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		755B15601F4DDDD600ACCAE2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		755B15631F4DDDD600ACCAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		755B15651F4DDDD600ACCAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		755B15681F4DDDD600ACCAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		755B156A1F4DDDD600ACCAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755B15761F4E13E500ACCAE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		755B157A1F4F2CC600ACCAE2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		755B157C1F4F2DD400ACCAE2 /* EnterMobileNumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterMobileNumViewController.swift; sourceTree = "<group>"; };
+		755B157E1F4F2DEB00ACCAE2 /* VerifyPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPinViewController.swift; sourceTree = "<group>"; };
+		755B15851F4F355E00ACCAE2 /* EnterIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterIPViewController.swift; sourceTree = "<group>"; };
+		755B15881F4F3AAD00ACCAE2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		75715D3E1F69119000479CD3 /* ScheduleRydesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleRydesViewController.swift; sourceTree = "<group>"; };
+		75715D401F6911A200479CD3 /* PastRydesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastRydesViewController.swift; sourceTree = "<group>"; };
+		75715D421F6911CD00479CD3 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		75715D471F6923C000479CD3 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		75715D491F6923FD00479CD3 /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		75715D4B1F692B5000479CD3 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		75715D4F1F7000CC00479CD3 /* RydeCompletedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RydeCompletedViewController.swift; sourceTree = "<group>"; };
+		7584AF731F56D45C000F05BA /* SelectDestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDestViewController.swift; sourceTree = "<group>"; };
+		75A039CF1F50457600CFB776 /* NetworkStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		75A039D11F51549700CFB776 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		75A039D71F52BBA300CFB776 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		75B7E6621FBB6EEF001046D8 /* ZiprydeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiprydeDetailViewController.swift; sourceTree = "<group>"; };
+		75B7E6641FBCB4F8001046D8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		75B7E6661FBCBA8C001046D8 /* VerifyFPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyFPViewController.swift; sourceTree = "<group>"; };
+		75B7E6681FBCBACF001046D8 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		75C8B71E1FB45E5B00993F92 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		75EB7C121F79493800949D3C /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		75F005D01F584A880069C128 /* SelectCabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCabViewController.swift; sourceTree = "<group>"; };
+		75F005D21F595BA70069C128 /* SelectFareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFareViewController.swift; sourceTree = "<group>"; };
+		75F005D41F596F050069C128 /* CabBookedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabBookedViewController.swift; sourceTree = "<group>"; };
+		75F653CA1F555CC5001002A5 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		75F810751F92428900114E30 /* Cab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cab.swift; path = ZipRyde/Models/Cab.swift; sourceTree = SOURCE_ROOT; };
+		75F810771F92428900114E30 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = ZipRyde/Models/Driver.swift; sourceTree = SOURCE_ROOT; };
+		75F810781F92428900114E30 /* Rider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rider.swift; path = ZipRyde/Models/Rider.swift; sourceTree = SOURCE_ROOT; };
+		75F8107D1F92429C00114E30 /* BookingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookingViewModel.swift; path = ZipRyde/ViewModels/BookingViewModel.swift; sourceTree = SOURCE_ROOT; };
+		75F8107E1F92429C00114E30 /* CabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CabViewModel.swift; path = ZipRyde/ViewModels/CabViewModel.swift; sourceTree = SOURCE_ROOT; };
+		75F8107F1F92429C00114E30 /* GetOTPViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetOTPViewModel.swift; path = ZipRyde/ViewModels/GetOTPViewModel.swift; sourceTree = SOURCE_ROOT; };
+		75F810801F92429C00114E30 /* SaveUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveUserViewModel.swift; path = ZipRyde/ViewModels/SaveUserViewModel.swift; sourceTree = SOURCE_ROOT; };
+		75F810811F92429C00114E30 /* VerifyLogInUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifyLogInUserViewModel.swift; path = ZipRyde/ViewModels/VerifyLogInUserViewModel.swift; sourceTree = SOURCE_ROOT; };
+		75F810821F92429C00114E30 /* VerifyOTPViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifyOTPViewModel.swift; path = ZipRyde/ViewModels/VerifyOTPViewModel.swift; sourceTree = SOURCE_ROOT; };
+		A9E34D351C765FD87FE3F8A1 /* Pods-ZipRyde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipRyde.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755B15581F4DDDD600ACCAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F653CB1F555CC5001002A5 /* UserNotifications.framework in Frameworks */,
+				755B15771F4E13E500ACCAE2 /* CoreLocation.framework in Frameworks */,
+				B6BA13AF89DF6BC0DB3FF313 /* Pods_ZipRyde.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034FC766EBB2A577CE8EFD9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9E34D351C765FD87FE3F8A1 /* Pods-ZipRyde.debug.xcconfig */,
+				72652996601EA2A87E46DA2A /* Pods-ZipRyde.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		753CFBE11F57F94B00FCAA16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75F810751F92428900114E30 /* Cab.swift */,
+				75F810771F92428900114E30 /* Driver.swift */,
+				75F810781F92428900114E30 /* Rider.swift */,
+				755598F11F934D360028331F /* Ride.swift */,
+			);
+			name = Models;
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		754EC01F1F6832810055D699 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75715D4B1F692B5000479CD3 /* String.swift */,
+				754EC0291F6873B50055D699 /* UIApplication.swift */,
+				754EC0201F6832D10055D699 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		755B15521F4DDDD600ACCAE2 = {
+			isa = PBXGroup;
+			children = (
+				755B155D1F4DDDD600ACCAE2 /* ZipRyde */,
+				755B155C1F4DDDD600ACCAE2 /* Products */,
+				755B15751F4E13E500ACCAE2 /* Frameworks */,
+				034FC766EBB2A577CE8EFD9E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		755B155C1F4DDDD600ACCAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755B155B1F4DDDD600ACCAE2 /* ZipRyde.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755B155D1F4DDDD600ACCAE2 /* ZipRyde */ = {
+			isa = PBXGroup;
+			children = (
+				7541B86A206A90150008694F /* ZipRyde.entitlements */,
+				7541B868206A8FD10008694F /* GoogleService-Info.plist */,
+				75715D461F69236C00479CD3 /* TableCell */,
+				754EC01F1F6832810055D699 /* Extension */,
+				753CFBE11F57F94B00FCAA16 /* Models */,
+				755B15871F4F3A9A00ACCAE2 /* Utilities */,
+				755B15801F4F308D00ACCAE2 /* ViewModels */,
+				755B15701F4E0B9E00ACCAE2 /* ViewControllers */,
+				755B155E1F4DDDD600ACCAE2 /* AppDelegate.swift */,
+				755B15621F4DDDD600ACCAE2 /* Main.storyboard */,
+				755B15651F4DDDD600ACCAE2 /* Assets.xcassets */,
+				755B15671F4DDDD600ACCAE2 /* LaunchScreen.storyboard */,
+				755B156A1F4DDDD600ACCAE2 /* Info.plist */,
+			);
+			path = ZipRyde;
+			sourceTree = "<group>";
+		};
+		755B15701F4E0B9E00ACCAE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				754EC0271F6872F70055D699 /* ExSlideMenuController.swift */,
+				754EC0241F68656C0055D699 /* SlideMenuController.swift */,
+				755B15601F4DDDD600ACCAE2 /* SignInViewController.swift */,
+				755B157A1F4F2CC600ACCAE2 /* SignUpViewController.swift */,
+				755B157C1F4F2DD400ACCAE2 /* EnterMobileNumViewController.swift */,
+				755B157E1F4F2DEB00ACCAE2 /* VerifyPinViewController.swift */,
+				755B15851F4F355E00ACCAE2 /* EnterIPViewController.swift */,
+				75A039D71F52BBA300CFB776 /* HomeScreenViewController.swift */,
+				7584AF731F56D45C000F05BA /* SelectDestViewController.swift */,
+				753CFBDF1F57F58500FCAA16 /* SourceLocationViewController.swift */,
+				75F005D01F584A880069C128 /* SelectCabViewController.swift */,
+				75F005D21F595BA70069C128 /* SelectFareViewController.swift */,
+				75F005D41F596F050069C128 /* CabBookedViewController.swift */,
+				754EC0221F6836360055D699 /* MenuViewController.swift */,
+				75715D3E1F69119000479CD3 /* ScheduleRydesViewController.swift */,
+				75715D401F6911A200479CD3 /* PastRydesViewController.swift */,
+				75715D421F6911CD00479CD3 /* HelpViewController.swift */,
+				75715D4F1F7000CC00479CD3 /* RydeCompletedViewController.swift */,
+				75EB7C121F79493800949D3C /* CalenderViewController.swift */,
+				75C8B71E1FB45E5B00993F92 /* EditProfileViewController.swift */,
+				75B7E6621FBB6EEF001046D8 /* ZiprydeDetailViewController.swift */,
+				75B7E6641FBCB4F8001046D8 /* ForgotPasswordViewController.swift */,
+				75B7E6661FBCBA8C001046D8 /* VerifyFPViewController.swift */,
+				75B7E6681FBCBACF001046D8 /* ChangePasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		755B15751F4E13E500ACCAE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75F653CA1F555CC5001002A5 /* UserNotifications.framework */,
+				755B15761F4E13E500ACCAE2 /* CoreLocation.framework */,
+				08AB6A7B2188A8ACD679D533 /* Pods_ZipRyde.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		755B15801F4F308D00ACCAE2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75F8107D1F92429C00114E30 /* BookingViewModel.swift */,
+				75F8107E1F92429C00114E30 /* CabViewModel.swift */,
+				75F8107F1F92429C00114E30 /* GetOTPViewModel.swift */,
+				75F810801F92429C00114E30 /* SaveUserViewModel.swift */,
+				75F810811F92429C00114E30 /* VerifyLogInUserViewModel.swift */,
+				75F810821F92429C00114E30 /* VerifyOTPViewModel.swift */,
+			);
+			name = ViewModels;
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		755B15871F4F3A9A00ACCAE2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				755B15881F4F3AAD00ACCAE2 /* Constants.swift */,
+				75A039CF1F50457600CFB776 /* NetworkStatus.swift */,
+				75A039D11F51549700CFB776 /* ActivityIndicatorView.swift */,
+				752302581F5AB26C002384CE /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		75715D461F69236C00479CD3 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				75715D471F6923C000479CD3 /* UserDetailTableViewCell.swift */,
+				75715D491F6923FD00479CD3 /* DefaultTableViewCell.swift */,
+				755598EF1F928D860028331F /* RideDetailCell.swift */,
+				7509D0581FAE09DD0099C9FA /* PaymentSubDetailTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755B155A1F4DDDD600ACCAE2 /* ZipRyde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755B156D1F4DDDD600ACCAE2 /* Build configuration list for PBXNativeTarget "ZipRyde" */;
+			buildPhases = (
+				D3A79727B3B00F84CFCFAB06 /* [CP] Check Pods Manifest.lock */,
+				755B15571F4DDDD600ACCAE2 /* Sources */,
+				755B15581F4DDDD600ACCAE2 /* Frameworks */,
+				755B15591F4DDDD600ACCAE2 /* Resources */,
+				BB59EDB9AA504850EF540FAF /* [CP] Embed Pods Frameworks */,
+				6EDA2ED28F4C1686FBDC1B2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipRyde;
+			productName = ZipRyde;
+			productReference = 755B155B1F4DDDD600ACCAE2 /* ZipRyde.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755B15531F4DDDD600ACCAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					755B155A1F4DDDD600ACCAE2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z4DU6YBMTS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 755B15561F4DDDD600ACCAE2 /* Build configuration list for PBXProject "ZipRyde" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				English,
+				French,
+				German,
+				Japanese,
+				ko,
+				Portuguese,
+				Spanish,
+				"zh-Hans",
+			);
+			mainGroup = 755B15521F4DDDD600ACCAE2;
+			productRefGroup = 755B155C1F4DDDD600ACCAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755B155A1F4DDDD600ACCAE2 /* ZipRyde */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		755B15591F4DDDD600ACCAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755B15691F4DDDD600ACCAE2 /* LaunchScreen.storyboard in Resources */,
+				7541B869206A8FD10008694F /* GoogleService-Info.plist in Resources */,
+				755B15661F4DDDD600ACCAE2 /* Assets.xcassets in Resources */,
+				755B15641F4DDDD600ACCAE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EDA2ED28F4C1686FBDC1B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB59EDB9AA504850EF540FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Koyomi/Koyomi.framework",
+				"${BUILT_PRODUCTS_DIR}/MICountryPicker/MICountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koyomi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MICountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZipRyde/Pods-ZipRyde-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A79727B3B00F84CFCFAB06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZipRyde-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755B15571F4DDDD600ACCAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754EC02A1F6873B50055D699 /* UIApplication.swift in Sources */,
+				75F005D31F595BA70069C128 /* SelectFareViewController.swift in Sources */,
+				755B15861F4F355E00ACCAE2 /* EnterIPViewController.swift in Sources */,
+				75715D481F6923C000479CD3 /* UserDetailTableViewCell.swift in Sources */,
+				755B157D1F4F2DD400ACCAE2 /* EnterMobileNumViewController.swift in Sources */,
+				75F005D51F596F050069C128 /* CabBookedViewController.swift in Sources */,
+				75F8107C1F92428900114E30 /* Rider.swift in Sources */,
+				75A039D21F51549700CFB776 /* ActivityIndicatorView.swift in Sources */,
+				755B15611F4DDDD600ACCAE2 /* SignInViewController.swift in Sources */,
+				75F810861F92429C00114E30 /* SaveUserViewModel.swift in Sources */,
+				754EC0231F6836360055D699 /* MenuViewController.swift in Sources */,
+				7584AF741F56D45C000F05BA /* SelectDestViewController.swift in Sources */,
+				75F810791F92428900114E30 /* Cab.swift in Sources */,
+				75A039D01F50457600CFB776 /* NetworkStatus.swift in Sources */,
+				75F810831F92429C00114E30 /* BookingViewModel.swift in Sources */,
+				75715D431F6911CD00479CD3 /* HelpViewController.swift in Sources */,
+				755598F01F928D860028331F /* RideDetailCell.swift in Sources */,
+				75715D4A1F6923FD00479CD3 /* DefaultTableViewCell.swift in Sources */,
+				7509D0591FAE09DD0099C9FA /* PaymentSubDetailTableViewCell.swift in Sources */,
+				75B7E6631FBB6EEF001046D8 /* ZiprydeDetailViewController.swift in Sources */,
+				75F810841F92429C00114E30 /* CabViewModel.swift in Sources */,
+				75F8107B1F92428900114E30 /* Driver.swift in Sources */,
+				75EB7C131F79493800949D3C /* CalenderViewController.swift in Sources */,
+				75715D411F6911A200479CD3 /* PastRydesViewController.swift in Sources */,
+				754EC0211F6832D10055D699 /* UIViewController.swift in Sources */,
+				754EC0261F68656C0055D699 /* SlideMenuController.swift in Sources */,
+				75F810881F92429C00114E30 /* VerifyOTPViewModel.swift in Sources */,
+				75C8B71F1FB45E5B00993F92 /* EditProfileViewController.swift in Sources */,
+				75F810851F92429C00114E30 /* GetOTPViewModel.swift in Sources */,
+				753CFBE01F57F58500FCAA16 /* SourceLocationViewController.swift in Sources */,
+				75715D3F1F69119000479CD3 /* ScheduleRydesViewController.swift in Sources */,
+				75F810871F92429C00114E30 /* VerifyLogInUserViewModel.swift in Sources */,
+				75B7E6671FBCBA8C001046D8 /* VerifyFPViewController.swift in Sources */,
+				755B155F1F4DDDD600ACCAE2 /* AppDelegate.swift in Sources */,
+				755B157F1F4F2DEB00ACCAE2 /* VerifyPinViewController.swift in Sources */,
+				75715D4C1F692B5000479CD3 /* String.swift in Sources */,
+				752302591F5AB26C002384CE /* Utility.swift in Sources */,
+				755B157B1F4F2CC600ACCAE2 /* SignUpViewController.swift in Sources */,
+				755B15891F4F3AAD00ACCAE2 /* Constants.swift in Sources */,
+				75715D501F7000CC00479CD3 /* RydeCompletedViewController.swift in Sources */,
+				75F005D11F584A880069C128 /* SelectCabViewController.swift in Sources */,
+				75B7E6691FBCBACF001046D8 /* ChangePasswordViewController.swift in Sources */,
+				75B7E6651FBCB4F8001046D8 /* ForgotPasswordViewController.swift in Sources */,
+				754EC0281F6872F70055D699 /* ExSlideMenuController.swift in Sources */,
+				75A039D81F52BBA300CFB776 /* HomeScreenViewController.swift in Sources */,
+				755598F21F934D360028331F /* Ride.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		755B15621F4DDDD600ACCAE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755B15631F4DDDD600ACCAE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		755B15671F4DDDD600ACCAE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755B15681F4DDDD600ACCAE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		755B156B1F4DDDD600ACCAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DY6ZU299MN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		755B156C1F4DDDD600ACCAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DY6ZU299MN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755B156E1F4DDDD600ACCAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E34D351C765FD87FE3F8A1 /* Pods-ZipRyde.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ZipRyde/ZipRyde.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4DU6YBMTS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZipRyde/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tds.zipryde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		755B156F1F4DDDD600ACCAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72652996601EA2A87E46DA2A /* Pods-ZipRyde.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ZipRyde/ZipRyde.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4DU6YBMTS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZipRyde/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tds.zipryde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755B15561F4DDDD600ACCAE2 /* Build configuration list for PBXProject "ZipRyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B156B1F4DDDD600ACCAE2 /* Debug */,
+				755B156C1F4DDDD600ACCAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755B156D1F4DDDD600ACCAE2 /* Build configuration list for PBXNativeTarget "ZipRyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755B156E1F4DDDD600ACCAE2 /* Debug */,
+				755B156F1F4DDDD600ACCAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755B15531F4DDDD600ACCAE2 /* Project object */;
+}
